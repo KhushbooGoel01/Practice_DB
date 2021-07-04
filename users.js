@@ -8,6 +8,6 @@ subject : String,
 body:String,
 
 
-},{collection : 'wemailer'});
+},{collection : 'users'});
 
-module.exports=mongoose.model( 'wemailer', userSchema);
+module.exports=mongoose.model( 'users', userSchema);
